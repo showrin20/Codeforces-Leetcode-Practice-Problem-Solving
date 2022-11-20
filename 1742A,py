@@ -1,0 +1,9 @@
+n=int(input())
+for j in range(n):
+  p=int(input())
+  list1=[int(i) for i in input().split()[:p]]
+  set1=set(list1)
+  if len(list1)==len(set1):
+    print("Yes")
+  else:
+    print("No")
